@@ -1,8 +1,8 @@
 ############# Area Shape file ###########################################
 getwd() # Set working directory
-setwd('E:/Mizan Sir')
+setwd('E:/........................................')
 
-shapefile_dir <- "E:/Mizan Sir/Hatiya shapefiles New/Hatiya shapefiles New" ## My folder location 
+shapefile_dir <- "E:/..................................." ## My folder location 
 
 area <- list.files(shapefile_dir, pattern = "\\.shp$", full.names = TRUE) ## List of my shapefiles
 area <- sort(area) ## Sort it on the basis of year
@@ -20,9 +20,9 @@ hatiya_area <- lapply(area, function(file) {
 
 ######################### Intersection file ##########################################
 getwd()
-setwd('E:/Mizan Sir')
+setwd('E:/...........')
 
-shapefile_dir <- "E:/Mizan Sir/Hatiya shapefiles New/Hatiya shapefiles New/Intersection" 
+shapefile_dir <- "E:/..................." 
 
 area_int <- list.files(shapefile_dir, pattern = "\\.shp$", full.names = TRUE)
 area_int <- sort(area_int)
